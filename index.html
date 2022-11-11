@@ -3,23 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>RagePlatformer | Dheirya Tyagi</title>
+    <title>Unity WebGL Player | Unity Basic</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <style>
-      html, body {
-          background-color: black;
-          color: white;
-          font-family: 'Oswald';
-      }
-    </style>
   </head>
   <body>
-    <center>
-      <h1 style="margin-top:0px"><b>Rage Platformer</b></h1>
-      <p style="margin-top:-20px"><i>Use Arrow Keys To Move. Use WASD To Move Camera. Good Luck!</i></p>
-    </center>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
@@ -32,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Rage Platformer</div>
+        <div id="unity-build-title">Unity Basic</div>
       </div>
     </div>
     <script>
@@ -68,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/RagePlatformer.loader.js";
+      var loaderUrl = buildUrl + "/RagePlatformerNew.loader.js";
       var config = {
-        dataUrl: buildUrl + "/RagePlatformer.data.unityweb",
-        frameworkUrl: buildUrl + "/RagePlatformer.framework.js.unityweb",
-        codeUrl: buildUrl + "/RagePlatformer.wasm.unityweb",
+        dataUrl: buildUrl + "/RagePlatformerNew.data.unityweb",
+        frameworkUrl: buildUrl + "/RagePlatformerNew.framework.js.unityweb",
+        codeUrl: buildUrl + "/RagePlatformerNew.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Unity Basic",
